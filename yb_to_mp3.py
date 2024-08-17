@@ -117,12 +117,12 @@ class UrlToMp3:
 #                "https://youtube.com/playlist?list=RDyi6NGtz53K4&playnext=1&si=8usYl6xZUAdCWGcY",
 #                "https://youtube.com/playlist?list=RDqRsEjSBhtWo&playnext=1&si=AAw1pkniZVjvftAo"
 #                ],
-#          path_out=r'C:\Users\dfrty\OneDrive\Рабочий стол\music\test1', max_threads=5).process()
+#          path_out=r'C:\Users\\OneDrive\Рабочий стол\music\test1', max_threads=5).process()
 
 # "PLAYLIST"
 # UrlToMp3(urls=["https://www.youtube.com/playlist?list=PLgULlLHTSGIQ9BeVZY37fJP50CYc3lkW2"],
-#          path_out=r'C:\Users\dfrty\OneDrive\Рабочий стол\music\test', max_threads=5).process()
+#          path_out=r'C:\Users\\OneDrive\Рабочий стол\music\test', max_threads=5).process()
 
 "VIDEO"
 UrlToMp3(urls=["https://www.youtube.com/watch?v=bFoFN9Sbk2w", "https://www.youtube.com/watch?v=1ll3FvVk6BA"],
-         path_out=r'C:\Users\dfrty\OneDrive\Рабочий стол\music\test2', max_threads=5).process()
+         path_out=r'C:\Users\\OneDrive\Рабочий стол\music\test2', max_threads=5).process()
