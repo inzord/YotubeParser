@@ -12,6 +12,7 @@ def web_scraping(soup):
         name = org.find(class_='yt-simple-endpoint').get('href')
         link = "".join([Params().Y_B, name])
         list_urls.append(link)
+        print(link)
     return list_urls
 
 
@@ -21,7 +22,7 @@ def get_browser(links):
     o.add_experimental_option("detach", True)
     browser = webdriver.Chrome(options=o)
     browser.get(links)
-    time.sleep(5)
+    time.sleep(10)
     soup = BeautifulSoup(browser.page_source, 'lxml')
     browser.close()
     return soup

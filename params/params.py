@@ -16,3 +16,5 @@ class Params:
         self.MIX_CHECK = os.getenv("mix_check")
         self.VIDEO_REGEX = os.getenv("video_regex")
         self.USER_AGENT = os.getenv("user_agent")
+        self.PATH_OUT = os.getenv("path_out")
+        self.API_TOKEN = os.getenv("api_token")
